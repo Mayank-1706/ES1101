@@ -75,7 +75,7 @@ print("Q5")
 #taking input for rows
 alpha=int(input("The number of rows to be printed: "))
 o=0
-for xi in range(0,alpha):
+for xi in range(0,alpha+1):
     for zi in range(xi):
             p=o//26 #we did this so that the pattern continue after Z
             #here chr(65) represents A
