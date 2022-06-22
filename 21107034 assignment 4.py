@@ -55,7 +55,7 @@ for y in range(1,11):
 #Q4
 #taking the range 
 for l in range(200):
-    if l%5 != 2:
-        if l%6 != 3:
-            if l%7 != 2:
+    if l%5 == 2:
+        if l%6 == 3:
+            if l%7 == 2:
                 print("There are " + str(l) + " candies in total")
